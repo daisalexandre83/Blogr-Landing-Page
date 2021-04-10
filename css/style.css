@@ -5,46 +5,66 @@ body{
 
 .content-bg-pattern{
   background: #F5A9F2;
+  height: 630px;
+  width: 100%vw;
+  border-bottom-left-radius: 100px;
 }
 
 .content-header{
   display: flex;
 }
-
-
-
+ 
 .bg-pattern{
- background:url("../i
- mages/bg-pattern-intro.svg");
- width: 100%vw;
- height: 500px;
- background-position: left;
- /*position: fixed;
- top: -1300px;*/
- margin-left: -450px;
- border: 1px solid red;
+  position: relative;
+  top: -1330px;
+  /*left: -500px;*/
+  margin-left: -450px;
+  width: 100%vw;
+  height: 1960px;
+  background: url('../images/bg-pattern-intro.svg');
 }
 
-.content-bg-pattern{
-  display: flex;
-  flex-direction: row;
+.header{
+  position: relative;
+  top: -1300px;
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  margin-left: -700px;
 }
 
-
-.part1-header{
-  text-align: center;
+/*.part1-header{
+  position: relative;
+  top: -1200px;
+  height: 200px;
+  width: 100px;
   font-weight: bold;
   font-size: 40px;
-}
+  background-color: blue;
+}*/
 
 .part2-header{
+  margin-left:170px;
   display: flex;
   flex-direction: row;
-  margin-top: 30px;
+  margin-top: -560px;
   width: 150px;
   height: 40px;
   float: left;
   color: #ffffff;
+  font-size: 20px;
+}
+
+#blog{
+  margin-top: -20px;
+  margin-right: 100px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#login{
+  margin-left: 300px;
+  background: yellowgreen;
 }
 
 .part3-header{
@@ -60,6 +80,17 @@ body{
   float: left;
   font-size: 20px;
 }
+
+.part2-header a{
+  margin-top: -30px;
+  padding: 30px;
+  color: #ffffff;
+}
+
+/*.links{
+   margin-right: 50px;
+   color: #ffffff;
+}*/
 
 section{
   margin-top:150px;
