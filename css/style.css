@@ -3,23 +3,36 @@ body{
   background: #ffffff;
 }
 
+.content-bg-pattern{
+  background: #F5A9F2;
+}
+
 .content-header{
   display: flex;
 }
 
-.pattern{
-  align-items: center;
+
+
+.bg-pattern{
+ background:url("../i
+ mages/bg-pattern-intro.svg");
+ width: 100%vw;
+ height: 500px;
+ background-position: left;
+ /*position: fixed;
+ top: -1300px;*/
+ margin-left: -450px;
+ border: 1px solid red;
 }
 
-.pattern img{
- position: fixed;
- top: -1300px;
- margin-left: -500px;
+.content-bg-pattern{
+  display: flex;
+  flex-direction: row;
 }
+
 
 .part1-header{
-  margin-left: 80px;
-  margin-top: 50px;
+  text-align: center;
   font-weight: bold;
   font-size: 40px;
 }
@@ -36,7 +49,7 @@ body{
 
 .part3-header{
   margin-top: 30px;
-  margin-left: 500px;
+  margin-left: 400px;
 }
 
 .btn-primary{
