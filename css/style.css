@@ -3,6 +3,7 @@ body{
   background: #ffffff;
 }
 
+/*Utilizei para a cor de fundo*/
 .content-bg-pattern{
   background: #F5A9F2;
   height: 630px;
@@ -10,10 +11,8 @@ body{
   border-bottom-left-radius: 100px;
 }
 
-.content-header{
-  display: flex;
-}
- 
+
+ /*Imagem colocada sobre a cor de fundo*/
 .bg-pattern{
   position: relative;
   top: -1330px;
@@ -24,32 +23,13 @@ body{
   background: url('../images/bg-pattern-intro.svg');
 }
 
-.header{
-  position: relative;
-  top: -1300px;
-  background-color: blue;
-  width: 100px;
-  height: 100px;
-  margin-left: -700px;
-}
 
-/*.part1-header{
-  position: relative;
-  top: -1200px;
-  height: 200px;
-  width: 100px;
-  font-weight: bold;
-  font-size: 40px;
-  background-color: blue;
-}*/
-
-.part2-header{
-  margin-left:170px;
+/*Área do cabeçário, contendo links e botões*/ 
+.part1-header{
+  margin-left:150px;
   display: flex;
   flex-direction: row;
   margin-top: -560px;
-  width: 150px;
-  height: 40px;
   float: left;
   color: #ffffff;
   font-size: 20px;
@@ -63,8 +43,33 @@ body{
 }
 
 #login{
-  margin-left: 300px;
-  background: yellowgreen;
+  margin-left: 320px;
+  z-index: 1;
+}
+
+.btn{
+  border: none;
+  border-radius: 30px;
+  padding: 15px 35px;
+  font-size: 20px;
+}
+
+.btn-outline-primary{
+  background:#F6CEEC;
+  color: #ffffff;
+}
+
+.btn-outline-secondary{
+  margin-left: 20px;
+  border: 1px solid white;
+  color:#ffffff;
+}
+
+#sign-up{
+  position: absolute;
+  top: 60px;
+  left: 1135px;
+  text-align: center;
 }
 
 .part3-header{
@@ -81,16 +86,35 @@ body{
   font-size: 20px;
 }
 
-.part2-header a{
+.part1-header a{
   margin-top: -30px;
   padding: 30px;
   color: #ffffff;
+  margin-left: -30px;
+  padding-right:50px;
 }
 
-/*.links{
-   margin-right: 50px;
-   color: #ffffff;
+/*.part1-header a::before{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid #ffffff;
+  border-right: 5px solid #ffffff;
+  transform: rotate(45deg);
 }*/
+
+
+.part1-header span{
+  position: absolute;
+  top:80px;
+  margin-left: 10px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-bottom:2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  transform: rotate(45deg);
+}
 
 section{
   margin-top:150px;
@@ -98,6 +122,26 @@ section{
   0px;
 }
 .part1-section{
-  margin: 0 auto;
+  position: absolute;
+  top: 250px;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+  margin-left: 350px;
+  font-size:55px;
+  color: #ffffff;
+}
+
+.part1-section p{
+  margin-top: 30px;
+  font-size: 22px;
   text-align: center;
+}
+
+.section-buttons{
+  position: absolute;
+  top: 450px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 570px;
 }
