@@ -7,7 +7,6 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet"  type="text/javascript" href="js/main.js">
   <title>Frontend Mentor | [Blogr]</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -20,30 +19,55 @@
   <header>
     <div class="content-bg-pattern">
       <div class="bg-pattern"> </div> 
-    </div>
-    <div class="part1-header">
+      <div class="part1-header">
         <p id="blog">Blogr</p>  
-        <a>Producty<span></span></a>
-        <a>Company<span></span></a>
-        <a onclick=""> Connect</a>
-        <p id="login">Login</p>
-        <button  id="sign-up" type="button" class="btn btn-outline-primary">Sign Up</button> 
-        <!--button id="sign-up" class="btn btn-white">Sign Up</button-->
+        <a>Producty</a>
+        <a>Company</a>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <a class="accordion-a" type="a" data-bs-toggle="collapse show" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Connect <span class="glyphicon glyphicon-chevron-down"></span>
+              </a>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p></p>
+                <p class="newsletter" ></p>
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+        <!--button type="button" onclick="clicou()">Connect</button>
+          <a id="link-text" onclick="clicou()"></a> Connect</a-->
+          <p id="login">Login</p>
+          <button  id="sign-up" type="button" class="btn btn-outline-primary">Sign Up</button> 
+          <!--button id="sign-up" class="btn btn-white">Sign Up</button-->
+        </div>
+      </div>
+    </header>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.js"></script>
+
+  <!--section>
+    <div class="part1-section">
+      A modern publishing plataform
+      <p>Grow your audience and build your online brand</p>
     </div>
-    <section>
-      <div class="part1-section">
-        A modern publishing plataform
-        <p>Grow your audience and build your online brand</p>
-      </div>
-      <div class="section-buttons">
-        <button id="start" type="button" class="btn btn-outline-primary">Start for Free</button>
-        <button type="button" class="btn btn-outline-secondary">Learn More</button>   
-      </div>
-    </section>
-  </header>
+    <div class="section-buttons">
+      <button id="start" type="button" class="btn btn-outline-primary">Start for Free</button>
+      <button type="button" class="btn btn-outline-secondary">Learn More</button>   
+    </div>
+  </section>
 
-      
+      <span class="glyphicon glyphicon-cloud" aria-hidden="true"></span>
   
+ 
+ Contact
+ Newsletter
+ LinkedIn
   
   
   
@@ -58,7 +82,7 @@
   
   
 
-  <!--Overview
+  Overview
   Pricing
   Marketplace
   Features
