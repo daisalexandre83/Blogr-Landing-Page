@@ -213,13 +213,12 @@ body{
   padding-left: 150px;
   /* margin-top: 50px; */
   margin-bottom: 30px;
-  z-index: 1;
 }
 
 .description{
   margin-top: 10px;
   margin-bottom: 60px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   float: left;
 }
 
@@ -228,6 +227,7 @@ body{
   border: 1px solid blue;
   margin-left: 790px; 
   margin-top: -800px;
+  overflow: hidden;
 }
 
 .part2-main{
@@ -260,6 +260,39 @@ body{
   left: -230px;
   bottom: -100px;
 }
+
+.part3-main{
+  margin-top: 125px;
+  color: black;
+  text-align: left;
+  border: 1px solid black;
+  display: flex;
+}
+
+.part3-main-a{
+  overflow: hidden;
+  position: relative;
+  left:-300px;
+  border:1px solid blue;
+  /* float: left; */
+}
+
+.part3-main-a img{
+  width: 100%;
+  height: 100%;
+}
+
+.part3-main-b{
+   /* margin-top: 100px;  */
+  float: right;
+  /* border: 1px solid green; */
+  margin-right: 100px; 
+  /* margin-top: -580px; */
+  margin-bottom: 30px;
+  border: 1px solid red;
+}
+
+
 
 
 
