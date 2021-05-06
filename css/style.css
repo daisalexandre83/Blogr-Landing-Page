@@ -158,6 +158,10 @@ body{
   font-weight: bold;
 }
 
+/*#collapseOne{
+  height: 200px;
+}*/
+
 #accordion-link{
   width: 150px;
   height: 50px;
@@ -179,7 +183,13 @@ body{
 
 #accordion-body{
   background: #ffffff;
-  border-radius: 15px;
+  border-radius: 5px;
+  height: 150px;
+  width: 160px;
+}
+
+.accordion-body p{
+  margin-bottom: -20px;
 }
 
 .part1-main{
@@ -324,6 +334,24 @@ footer{
   display: flex;
   flex-direction: column;
   width: 25%;
+}
+
+/*Não visitados*/
+a:link{
+  text-decoration: none; 
+  color:#ffffff;
+}
+
+/*links visitados*/
+a:visited{
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+/*links hover, passar o cursor sobre o link*/
+a:hover{
+  text-decoration: underline;
+  color: #ffffff;
 }
 
 
