@@ -34,7 +34,7 @@ body{
   width: 100%;
   float: left;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 18px;
   border: 1px solid green;
   float: left;
 }
@@ -67,7 +67,7 @@ body{
   border: none;
   border-radius: 30px;
   padding: 15px 35px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .btn-outline-primary{
@@ -88,6 +88,7 @@ body{
   margin-left: 235px;
   position: absolute;
   top: -15px;
+  font-size: 18px;
 }
 
 .part3-header{
@@ -170,7 +171,7 @@ body{
   margin-top:-44px ;
   border: none;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #container{
@@ -202,7 +203,7 @@ body{
 }
 
 .part1-main-title{
-  margin-top: 50px;
+  margin-top: 125px;
   margin-bottom: 50px;
   width: 100%;
   align-items: center;
@@ -215,20 +216,21 @@ body{
 }
 
 .subtitle{
-  font-size: 30px;
+  font-size: 24px;
   font-weight: bold;
   /* margin-bottom: 30px; */
 }
 
 .part1-main-a{
   padding-left: 150px;
-  /* margin-top: 50px; */
   margin-bottom: 30px;
+  width: 50%;
+  border:1px solid black;
+  margin-top: 75px;
 }
 
 .description{
   margin-top: 10px;
-  margin-bottom: 60px;
   /* border: 1px solid red; */
   float: left;
 }
@@ -236,8 +238,8 @@ body{
 .part1-main-b{
   float: left;
   border: 1px solid blue;
-  margin-left: 790px; 
-  margin-top: -800px;
+  margin-left: 700px; 
+  margin-top: -700px;
   overflow: hidden;
 }
 
@@ -245,23 +247,13 @@ body{
   border-top-right-radius:100px;
   border-bottom-left-radius:100px;
   width: 100%;
-  height: 450px;
+  height: 420px;
   background-color: #0B0B3B;
   border: 1px solid red;
   position: relative;
-  overflow: hidden;
+  margin-top: 60px;
+  display:flex;
 }
-
-/*.part2-main::after{
-  content: '';
-  background: url('../images/bg-pattern-circles.svg') bottom left no-repeat;
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: -230px;
-  bottom: -100px;
-}*/
 
 .part2-main-a{
   background: url('../images/bg-pattern-circles.svg') bottom left no-repeat;
@@ -272,6 +264,22 @@ body{
   height: 120%;
   margin-left: -379px;
   /* bottom: -100px; */
+}
+
+.part2-main-b{
+  float: left;
+  border: 1px solid yellow;
+  z-index: 1;
+  width: 50%;
+  margin-left: 725px;
+  margin-top: 125px;
+}
+
+.image-content{
+  margin-left: 500px;
+  margin-top: -60px;
+  position: absolute;
+  width: 40%;
 }
 
 .part3-main{
@@ -299,7 +307,7 @@ body{
 }
 
 .part3-main-b{
-   /* margin-top: 100px;  */
+   margin-top: 180px; 
   /* border: 1px solid green; */
   margin-right: 100px; 
   /* margin-top: -580px; */
