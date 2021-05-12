@@ -2,6 +2,7 @@
 
 body{
   background: #ffffff;
+  font-family: 'Overpass', sans-serif;
 }
 
 /*Utilizei para a cor de fundo*/
@@ -25,7 +26,7 @@ body{
 }
 
 
-/*Área do cabeçário, contendo links e botões*/ 
+/*Área do cabeçário, contendo links e botões*/
 .part1-header{
   position: absolute;
   top: 75px;
@@ -68,6 +69,7 @@ body{
   border-radius: 30px;
   padding: 15px 35px;
   font-size: 18px;
+  font-weight: 600;
 }
 
 .btn-outline-primary{
@@ -129,12 +131,15 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size:55px;
   color: #ffffff;
   border: 1px solid blue;
   width: 70%;
   margin-left:190px;
+}
 
+.part1-section h1{
+   font-weight: bold; 
+   font-size: 55px;
 }
 
 .part1-section p{
@@ -212,12 +217,12 @@ body{
 .title{
   text-align: center;
   font-size: 35px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .subtitle{
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 600;
   /* margin-bottom: 30px; */
 }
 
@@ -233,12 +238,13 @@ body{
   margin-top: 10px;
   /* border: 1px solid red; */
   float: left;
+  width: 90%;
 }
 
 .part1-main-b{
   float: left;
   border: 1px solid blue;
-  margin-left: 700px; 
+  margin-left: 700px;
   margin-top: -700px;
   overflow: hidden;
 }
@@ -253,6 +259,7 @@ body{
   position: relative;
   margin-top: 60px;
   display:flex;
+  color:#ffffff;
 }
 
 .part2-main-a{
@@ -267,19 +274,22 @@ body{
 }
 
 .part2-main-b{
-  float: left;
+  /* float: left; */
   border: 1px solid yellow;
   z-index: 1;
   width: 50%;
   margin-left: 725px;
-  margin-top: 125px;
+  margin-top: 140px;
 }
 
 .image-content{
-  margin-left: 500px;
   margin-top: -60px;
   position: absolute;
   width: 40%;
+}
+
+.image-content img{
+  margin-left: 500px;
 }
 
 .part3-main{
@@ -307,9 +317,9 @@ body{
 }
 
 .part3-main-b{
-   margin-top: 180px; 
+   margin-top: 180px;
   /* border: 1px solid green; */
-  margin-right: 100px; 
+  margin-right: 100px;
   /* margin-top: -580px; */
   /* margin-bottom: 30px; */
   border: 1px solid red;
@@ -353,7 +363,7 @@ footer{
 
 /*Não visitados*/
 a:link{
-  text-decoration: none; 
+  text-decoration: none;
   color:#ffffff;
 }
 
