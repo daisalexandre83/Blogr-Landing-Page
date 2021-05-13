@@ -242,6 +242,15 @@ body{
   width: 90%;
 }
 
+.description-part1{
+  width: 90%;
+}
+
+.description-part2{
+  width: 80%;
+}
+
+
 .part1-main-b{
   float: left;
   border: 1px solid blue;
