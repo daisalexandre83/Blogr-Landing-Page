@@ -1,16 +1,17 @@
-var acc = document.getElementsByClassName("accordion");
-var i;
+$(document).on('click','.menu',function(e){
+  e.stopPropagation();
+ $('.menu').not($(this)).removeClass('active');
+ $(this).toggleClass('active');
+ console.log('oi')
+});
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
-}
+$(document).on('click',function() {
+ $('.menu').removeClass('active');
+});
+
+$(document).on('click','.menu-content',
+ function(e){
+   e.stopPropagation();
+})
 
 
