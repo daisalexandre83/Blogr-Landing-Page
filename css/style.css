@@ -12,18 +12,20 @@ body{
   height: 630px;
   width: 100%vw;
   border-bottom-left-radius:100px ;
+  position: relative;
 }
 
 
  /*Imagem colocada sobre a cor de fundo*/
 .bg-pattern{
-  position: relative;
-  top: -1330px;
-  /*left: -500px;*/
+  position: absolute;
   margin-left: -450px;
-  width: 100%vw;
-  height: 1960px;
+  width: 100%;
+  height: 100%;
   background: url('../images/bg-pattern-intro.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 
