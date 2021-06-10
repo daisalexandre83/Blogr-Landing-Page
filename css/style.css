@@ -5,17 +5,13 @@ body{
   font-family: 'Overpass', sans-serif;
 }
 
-/*Utilizei para a cor de fundo*/
 .content-bg-pattern{
-  /* background: #F5A9F2; */
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,133,110,1) 0%, rgba(255,83,93,1) 100%);
   height: 630px;
   width: 100%vw;
   position: relative;
 }
 
-
- /*Imagem colocada sobre a cor de fundo*/
 .bg-pattern{
   position: absolute;
   width: 100%;
@@ -31,24 +27,20 @@ body{
   left:-40%;
 }
 
-
-/*Área do cabeçário, contendo links e botões*/
 .part1-header{
   position: absolute;
-  top: 75px;
+  top: 115px;
  display: flex;
   flex-direction: row;
   float: left;
   color: #ffffff;
   font-size: 18px;
-  border: 1px solid green;
   float: left;
   width: 100%;
 }
 
 .part1-header-b{
   top:20px;
-  border:1px solid blue;
   float: right;
   margin-right: 50px;
   width: 43%;
@@ -61,26 +53,20 @@ body{
   margin-left: 130px;
   font-family: Arial, Helvetica, sans-serif;
   width: 12%;
-  border:1px solid red;
 }
 
 #login{
   z-index: 1;
-  border: 1px solid red;
   width: 100px;
-  margin-left: 235px; 
-  padding-top: 10px;
+  margin-left: 260px; 
+  padding-top: 20px;
 }
 
 .menu{
   display: inline-block;
-  /* color:blue; */
   padding: 20px;
-  /*position: relative;
-  font-family: Arial; */
   cursor: pointer;
   transition: .3s ease;
-  border: 1px solid black;
   user-select: none;
   width: 15%;
 }
@@ -98,8 +84,6 @@ body{
 }
 
 .menu:hover{
-  /* background-color:#ffffff; 
-  color: #000;*/
   border-color: #000;
 }
 
@@ -107,17 +91,25 @@ body{
   border: 1px solid #000000;
   color: #000000;
   width: 175px;
-  height: 150px;
+  height: 130px;
   bottom: -157px;
   border-radius: 5px;
   background: #ffffff;
-  display:none;
+  display:none;  
   position: absolute;
   top:55px;
+  border:1px solid red
+}
+
+.menu-content-contact{
+  padding-top: 10px;
+}
+
+.menu-content-links{
+  padding-left: 20px;
 }
 
 .menu-content p{
-  /*margin-left: 10px;*/
   user-select: none;
 }
 
@@ -130,15 +122,13 @@ body{
 
 
 .menu.active{
-  /*background-color: #ffffff;*/
   border-color: #000;
-  /* color: #000000; */
+
 }
 
 .menu.active::after{
   display:block;
 }
-
 
 .menu.active .menu-content{
   display: block;
@@ -165,11 +155,21 @@ body{
 
 #sign-up{
   text-align: center;
-  border:1px solid red;
   float: right;
-  margin-left: 325px; 
+  margin-left: 340px; 
   position: absolute;
   font-size: 18px;
+  top:5px;
+  background: #ff7b86;
+}
+
+#start{
+  background: #ff7b86;
+}
+
+#white-button{
+  background: #ffffff;
+  color:#dfa3a5;
 }
 
 .part3-header{
@@ -188,12 +188,11 @@ body{
 
 .part1-section{
   position: absolute;
-  top: 250px;
+  top: 280px;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: #ffffff;
-  border: 1px solid blue;
   width: 70%;
   margin-left:190px;
 }
@@ -211,23 +210,14 @@ body{
 
 .section-buttons{
   position: absolute;
-  top: 450px;
-  /*display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;*/
+  top: 480px;
   margin-left: 510px;
-  border: 1px solid green;
   align-items: center;
 }
 
 .newsletter{
   font-weight: bold;
 }
-
-/*#collapseOne{
-  height: 200px;
-}*/
 
 #accordion-link{
   width: 150px;
@@ -262,10 +252,8 @@ body{
 .part1-main{
   margin-top: 30px;
   color: black;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
-  /* width: 48%; */
 }
 
 .part1-main-title{
@@ -284,12 +272,10 @@ body{
 .subtitle{
   font-size: 24px;
   font-weight: 600;
-  /* margin-bottom: 30px; */
 }
 
 .part1-main-a{
-  padding-left: 150px;
-  margin-bottom: 30px;
+  padding-left: 105px;
   width: 50%;
   border:1px solid black;
   margin-top: 75px;
@@ -297,7 +283,6 @@ body{
 
 .description{
   margin-top: 10px;
-  /* border: 1px solid red; */
   float: left;
   width: 90%;
 }
@@ -313,9 +298,8 @@ body{
 
 .part1-main-b{
   float: left;
-  border: 1px solid blue;
   margin-left: 700px;
-  margin-top: -700px;
+  margin-top: -665px;
   overflow: hidden;
 }
 
@@ -325,7 +309,6 @@ body{
   width: 100%;
   height: 420px;
   background-color: #0B0B3B;
-  border: 1px solid red;
   position: relative;
   margin-top: 60px;
   display:flex;
@@ -346,17 +329,7 @@ body{
   
 }
 
-/*.testando img{
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-  position: relative;
-  margin-left:-500px;
-}*/
-
 .part2-main-b{
-  /* float: left; */
-  border: 1px solid yellow;
   z-index: 1;
   width: 50%;
   margin-left: 725px;
@@ -379,18 +352,13 @@ body{
 
 .part3-main{
   margin-top: 125px;
-  color: black;
   text-align: left;
-  border: 1px solid black;
   display: flex;
   flex-direction: row;
 }
 
 .part3-main-a{
-  /* overflow: hidden; */
   position: relative;
-  border:1px solid blue;
-  /* float: left; */
   width: 50%;
 }
 
@@ -402,12 +370,8 @@ body{
 }
 
 .part3-main-b{
-   margin-top: 180px;
-  /* border: 1px solid green; */
+   margin-top: 200px;
   margin-right: 100px;
-  /* margin-top: -580px; */
-  /* margin-bottom: 30px; */
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -428,8 +392,6 @@ footer{
 }
 
 .content-footer{
- /* font-weight: bold;
-  border: 1px solid red;*/
   padding-top: 75px;
   display: flex;
   flex-direction: row;
@@ -447,23 +409,21 @@ footer{
   width: 25%;
 }
 
-/*Não visitados*/
 a:link{
   text-decoration: none;
   color:#ffffff;
 }
 
-/*links visitados*/
 a:visited{
   text-decoration: underline;
   color: #ffffff;
 }
 
-/*links hover, passar o cursor sobre o link*/
 a:hover{
   text-decoration: underline;
   color: #ffffff;
 }
+
 
 
 
