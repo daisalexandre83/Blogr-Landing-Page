@@ -249,6 +249,11 @@ body{
   margin-bottom: -20px;
 }
 
+.main{
+  display:flexbox;
+  flex-direction: row;
+}
+
 .part1-main{
   margin-top: 30px;
   color: black;
@@ -277,7 +282,6 @@ body{
 .part1-main-a{
   padding-left: 105px;
   width: 50%;
-  border:1px solid black;
   margin-top: 75px;
 }
 
